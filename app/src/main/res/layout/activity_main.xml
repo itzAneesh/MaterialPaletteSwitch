@@ -1,0 +1,132 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5">
+
+
+        <TextView
+            android:id="@+id/redButton"
+            style="@style/gridStyle"
+            android:text="red"
+            android:textColor="@color/colorRed"/>
+
+        <TextView
+            android:id="@+id/pinkButton"
+            style="@style/gridStyle"
+            android:text="pink"
+            android:textColor="@color/colorPink"/>
+
+        <TextView
+            android:id="@+id/purpleButton"
+            style="@style/gridStyle"
+            android:text="purple"
+            android:textColor="@color/colorPurple"/>
+
+        <TextView
+            android:id="@+id/deepPurpleButton"
+            style="@style/gridStyle"
+            android:text="deep\npurple"
+            android:textColor="@color/colorDeepPurple"/>
+
+        <TextView
+            android:id="@+id/indigoButton"
+            style="@style/gridStyle"
+            android:text="indigo"
+            android:textColor="@color/colorIndigo"/>
+
+        <TextView
+            android:id="@+id/blueButton"
+            style="@style/gridStyle"
+            android:text="blue"
+            android:textColor="@color/colorBlue"/>
+
+        <TextView
+            android:id="@+id/lightBlueButton"
+            style="@style/gridStyle"
+            android:text="light\nblue"
+            android:textColor="@color/colorLightBlue"/>
+
+        <TextView
+            android:id="@+id/cyanButton"
+            style="@style/gridStyle"
+            android:text="cyan"
+            android:textColor="@color/colorCyan"/>
+
+        <TextView
+            android:id="@+id/tealButton"
+            style="@style/gridStyle"
+            android:text="teal"
+            android:textColor="@color/colorTeal"/>
+
+        <TextView
+            android:id="@+id/greenButton"
+            style="@style/gridStyle"
+            android:text="green"
+            android:textColor="@color/colorGreen"/>
+
+        <TextView
+            android:id="@+id/lightGreenButton"
+            style="@style/gridStyle"
+            android:text="light\ngreen"
+            android:textColor="@color/colorLightGreen"/>
+
+        <TextView
+            android:id="@+id/limeButton"
+            style="@style/gridStyle"
+            android:text="lime"
+            android:textColor="@color/colorLime"/>
+
+        <TextView
+            android:id="@+id/yellowButton"
+            style="@style/gridStyle"
+            android:text="yellow"
+            android:textColor="@color/colorYellow"/>
+
+        <TextView
+            android:id="@+id/amberButton"
+            style="@style/gridStyle"
+            android:text="amber"
+            android:textColor="@color/colorAmber"/>
+
+        <TextView
+            android:id="@+id/orangeButton"
+            style="@style/gridStyle"
+            android:text="orange"
+            android:textColor="@color/colorOrange"/>
+
+        <TextView
+            android:id="@+id/deepOrangeButton"
+            style="@style/gridStyle"
+            android:text="deep\norange"
+            android:textColor="@color/colorDeepOrange"/>
+
+        <TextView
+            android:id="@+id/brownButton"
+            style="@style/gridStyle"
+            android:text="brown"
+            android:textColor="@color/colorBrown"/>
+
+        <TextView
+            android:id="@+id/greyButton"
+            style="@style/gridStyle"
+            android:text="grey"
+            android:textColor="@color/colorGrey"/>
+
+        <TextView
+            android:id="@+id/blueGreyButton"
+            style="@style/gridStyle"
+            android:text="blue\ngrey"
+            android:textColor="@color/colorBlueGrey"/>
+
+        <TextView
+            android:id="@+id/moreButton"
+            style="@style/gridStyle"
+            android:text="more"
+            android:textColor="@android:color/black"/>
+
+
+    </GridLayout>
+</layout>
